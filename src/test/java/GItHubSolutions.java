@@ -21,6 +21,5 @@ public class GItHubSolutions {
         $(".HeaderMenu-nav").$(byText("Solutions")).hover();
         $(byText("Enterprises")).click();
         $("#hero-section-brand-heading").shouldHave(text("The AI-powered developer platform"));
-
     }
 }
