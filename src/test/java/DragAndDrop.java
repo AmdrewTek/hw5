@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class DragAndDrop {
     @BeforeAll
-    static void beforall(){
+    static void presetForTests(){
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize="1920x1080";
     }
